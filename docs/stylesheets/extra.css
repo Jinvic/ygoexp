@@ -1,0 +1,20 @@
+/* 使卡片内所有内容居中 */
+.grid.cards li {
+  text-align: center;
+}
+
+/* 图片居中关键样式 */
+.grid.cards li img {
+  display: block;
+  margin: 0 auto 0.5em; /* 居中 + 下方留空 */
+  max-width: 100%;
+  height: auto;
+}
+
+/* 标题链接样式 */
+.grid.cards li a {
+  display: inline-block; /* 或 block */
+  font-weight: 600;
+  margin: 0.25em auto 0;
+  text-align: center;
+}

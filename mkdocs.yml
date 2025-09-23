@@ -1,0 +1,88 @@
+site_name: YGOEXP
+site_url: https://doc.jinvic.top/ygoexp
+repo_url: https://github.com/Jinvic/ygoexp
+repo_name: Jinvic/ygoexp
+site_description: some experience about YGO.
+site_author: Jinvic
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+nav:
+  - README: README.md
+  - 妹卡:
+      - 六花: 妹卡/六花.md
+      - 双子: 妹卡/双子.md
+      - 御巫: 妹卡/御巫.md
+      - 恐啡肽: 妹卡/恐啡肽.md
+      - 抒情歌鸲: 妹卡/抒情歌鸲.md
+      - 救祓少女: 妹卡/救祓少女.md
+      - 朋克: 妹卡/朋克.md
+      - 梦见: 妹卡/梦见.md
+      - 淘气仙星: 妹卡/淘气仙星.md
+      - 白银城: 妹卡/白银城.md
+      - 百夫长: 妹卡/百夫长.md
+      - 芳香: 妹卡/芳香.md
+      - 虫惑魔: 妹卡/虫惑魔.md
+      - 闪刀姬: 妹卡/闪刀姬.md
+      - 魔女术: 妹卡/魔女术.md
+      - 鹰身女郎: 妹卡/鹰身女郎.md
+      - 龙女仆: 妹卡/龙女仆.md
+  - 常规:
+      - psy: 常规/psy.md
+      - 书灵师: 常规/书灵师.md
+      - 六武众: 常规/六武众.md
+      - 占术姬: 常规/占术姬.md
+      - 双天: 常规/双天.md
+      - 变形斗士: 常规/变形斗士.md
+      - 古生物: 常规/古生物.md
+      - 天威: 常规/天威.md
+      - 幻煌龙: 常规/幻煌龙.md
+      - 忍者: 常规/忍者.md
+      - 战华: 常规/战华.md
+      - 教导: 常规/教导.md
+      - 斯摩夫: 常规/斯摩夫.md
+      - 旅鸟: 常规/旅鸟.md
+      - 时潜: 常规/时潜.md
+      - 源数: 常规/源数.md
+      - 烙印: 常规/烙印.md
+      - 相剑: 常规/相剑.md
+      - 神碑: 常规/神碑.md
+      - 遗式: 常规/遗式.md
+      - 青眼白龙: 常规/青眼白龙.md
+      - 魔妖: 常规/魔妖.md
+      - 黄金国: 常规/黄金国.md
+      - 黑魔导: 常规/黑魔导.md
+      - 龙辉巧: 常规/龙辉巧.md
+  - 杂项:
+      - R4支援卡: 杂项/R4支援卡.md
+      - 小轴收集整理: 杂项/小轴收集整理.md
+      - 弱额外支援卡: 杂项/弱额外支援卡.md
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
