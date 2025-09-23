@@ -16,9 +16,25 @@ theme:
     - navigation.path
     - navigation.indexes
     - navigation.top
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 nav:
   - README: README.md
@@ -76,13 +92,23 @@ plugins:
       lang:
         - zh
         - en
+      separator: '[\s\-\.]+' # 更智能的分词（对中文友好）
   - git-revision-date-localized:
-      enable_creation_date: true
+      type: iso_date
+      locale: zh # 强制中文显示
+      fallback_to_build_date: true
+      enable_creation_date: false
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/grid_cards.css
+  - stylesheets/deck_status.css
 
 markdown_extensions:
   - def_list
   - attr_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
