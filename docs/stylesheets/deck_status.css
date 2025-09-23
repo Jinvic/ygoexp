@@ -1,0 +1,96 @@
+/* 
+<span class="status-todo">⚪</span>
+<span class="status-done">🟢</span>
+<span class="status-progress">🟡</span>
+<span class="status-outdated">🔴</span>
+*/
+/* ========== 文档状态标签 ========== */
+
+.status-todo,
+.status-done,
+.status-progress,
+.status-outdated {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.3em;
+  height: 1.3em;
+  line-height: 1;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  font-size: 1.1em;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* 计划中 - 灰色⚪ */
+.status-todo {
+  color: #9e9e9e;
+  background: transparent;
+  border: 2px solid #9e9e9e;
+}
+
+/* 已完成 - 绿色🟢 */
+.status-done {
+  color: #fff;
+  background: #4caf50;
+  border: 2px solid #388e3c;
+}
+
+/* 进行中 - 黄色🟡 */
+.status-progress {
+  color: #fff;
+  background: #ff9800;
+  border: 2px solid #f57c00;
+}
+
+/* 已过时待更新 - 红色🔴 */
+.status-outdated {
+  color: #fff;
+  background: #f44336;
+  border: 2px solid #d32f2f;
+}
+
+/* 悬停放大 + 提示文字 */
+.status-todo:hover,
+.status-done:hover,
+.status-progress:hover,
+.status-outdated:hover {
+  transform: scale(1.2);
+  cursor: help;
+}
+
+.status-todo:hover::after {
+  content: "📌 计划中";
+}
+
+.status-done:hover::after {
+  content: "✅ 已完成";
+}
+
+.status-progress:hover::after {
+  content: "🔄 进行中";
+}
+
+.status-outdated:hover::after {
+  content: "⚠️ 已过时";
+}
+
+/* 统一悬停提示样式 */
+.status-todo:hover::after,
+.status-done:hover::after,
+.status-progress:hover::after,
+.status-outdated:hover::after {
+  position: absolute;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-left: 0.5em;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
