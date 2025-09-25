@@ -63,7 +63,7 @@
 - [遗式](常规/遗式.md)
 - [书灵师](常规/书灵师.md)
 - [占术姬](常规/占术姬.md)
-- [烙印](常规/烙印.md)<span class="status-todo">⚪</span>
+- [烙印](常规/烙印.md)<span class="status-progress">🟡</span>
 
 ## 杂项
 
