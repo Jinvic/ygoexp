@@ -1,0 +1,8 @@
+{
+	"Ygo Card": {
+		"scope": "markdown",
+		"prefix": ["/yc"],
+		"body": "<div class=\"grid cards\" markdown>\n\n- ![${1:name}](https://cdn.233.momobako.com/ygopro/pics/${2:id}.jpg)\n\n    [${1:name}](https://ygocdb.com/card/${2:id})\n\n</div>",
+		"description": "Ygo card image and caption."
+	}
+}
