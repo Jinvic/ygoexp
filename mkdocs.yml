@@ -104,7 +104,7 @@ extra_css:
   - css/deck_status.css
 
 extra_javascript:
-  - js/external-links.js
+  - js/external_links.js
 
 markdown_extensions:
   - def_list
