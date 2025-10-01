@@ -100,8 +100,11 @@ plugins:
       enable_creation_date: false
 
 extra_css:
-  - stylesheets/grid_cards.css
-  - stylesheets/deck_status.css
+  - css/grid_cards.css
+  - css/deck_status.css
+
+extra_javascript:
+  - js/external-links.js
 
 markdown_extensions:
   - def_list
