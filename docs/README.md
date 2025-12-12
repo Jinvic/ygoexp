@@ -21,7 +21,7 @@
 
 - [虫惑魔](妹卡/虫惑魔.md)<span class="status-done">🟢</span>
 - [龙女仆](妹卡/龙女仆.md)<span class="status-todo">⚪</span>
-- [双子](妹卡/双子.md)<span class="status-todo">⚪</span>
+- [双子](妹卡/双子.md)<span class="status-todo">🟡</span>
 - [白银城](妹卡/白银城.md)<span class="status-done">🟢</span>
 - [魔女术](妹卡/魔女术.md)<span class="status-done">🟢</span>
 - [鹰身女郎](妹卡/鹰身女郎.md)
@@ -63,7 +63,7 @@
 - [遗式](常规/遗式.md)
 - [书灵师](常规/书灵师.md)
 - [占术姬](常规/占术姬.md)
-- [烙印](常规/烙印.md)<span class="status-progress">🟡</span>
+- [烙印](常规/烙印.md)<span class="status-progress">🔴</span>
 
 ## 杂项
 
